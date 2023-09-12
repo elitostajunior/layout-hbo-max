@@ -70,3 +70,24 @@ body {
     margin-left: 24px;
     font-weight: bold;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    body {
+        height: auto;
+    }
+
+    .login__actions {
+        text-align: center;
+    }
+    
+    .login__actions .button {
+        display: block;
+        margin: 0 auto 24px;
+    }
+
+    .login__link {
+        margin: 0;
+    }
+}
